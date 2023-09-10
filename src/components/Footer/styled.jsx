@@ -1,28 +1,18 @@
 import { styled } from "styled-components";
 
-export const MenuContainer = styled.div`
+export const FooterContainer = styled.div`
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 100vw;
+    background-color: white;
+    width: 100%;
     height: 8vh;
     position: fixed;
     bottom: 0;
     border: 1px solid var(--theme-white-theme-core-tokens-button-separator, #E0E0E0);
-    padding: 0 3vw;
+    padding: 0 3vh;
 `
 
 export const Botao = styled.button`
     background: none;
     border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 15vw;
-    height: auto;
-`
-
-export const ImgBotao = styled.img`
-    width: 8vw;
-    height: 8vw;
 `

@@ -1,15 +1,10 @@
 import { FotoLogin, HeaderContainer , ImgFilter, Login, Nome} from "./styled"
-import Filter from "../../Assets/filter-right.svg"
 
-function Header() {
+function Header( props ) {
     return (
         <>
             <HeaderContainer>
-                <Login>
-                    <FotoLogin/>
-                    <Nome>Bernardo Haisser</Nome>
-                </Login>
-                <ImgFilter src={Filter}/>
+                {props.Elements}
             </HeaderContainer>
         </>
     )

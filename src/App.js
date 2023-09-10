@@ -1,5 +1,6 @@
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import Home from "./Pages/Home/Home";
+import Rotas from "./routes/Rotas";
 
 function App() {
   const styles ={
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <ChakraProvider theme={theme}>
-      <Home/>
+      <Rotas/>
     </ChakraProvider>
   );
 }
