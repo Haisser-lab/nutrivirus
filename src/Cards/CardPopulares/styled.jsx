@@ -18,7 +18,8 @@ export const Titulo = styled.p`
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 20px; /* 125% */
+    line-height: 20px;
+    text-align: left;
 `
 
 export const DivMenor = styled.div`

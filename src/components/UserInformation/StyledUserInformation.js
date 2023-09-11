@@ -10,8 +10,8 @@ export const Login = styled.div`
 `
 
 export const FotoLogin = styled.div`
-    width: 15vw;
-    height: 15vw;
+    width: 12vw;
+    height: 12vw;
     background: blue;
     border-radius: 50%;
 `

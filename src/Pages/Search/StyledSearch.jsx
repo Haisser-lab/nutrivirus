@@ -54,7 +54,6 @@ export const VirusCard = styled.button`
     justify-content: flex-start;
     padding: 3vh;
     color: white;
-    font-weight: 600;
     font-size: large;
     letter-spacing: 0.8px;
 `

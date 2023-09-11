@@ -8,16 +8,26 @@ export const Container = styled.div`
     gap: 2vh;
 `
 
+export const TitleContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+`
+
+export const MoreButton = styled.div`
+    font-size: small;
+    font-weight: 600;
+`
+
 export const Texto = styled.p`
     color: #000;
     font-feature-settings: 'clig' off, 'liga' off;
-
-    /* productive/heading/05 */
     font-family: Work Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 22px; /* 110% */
+    line-height: 22px;
 `
 
 export const DivCards = styled.div`

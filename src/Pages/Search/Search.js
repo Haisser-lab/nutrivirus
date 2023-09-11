@@ -6,6 +6,7 @@ import Header from "../../components/Header/Header";
 
 import virusData from "../../virus.json";
 import { useNavigate } from 'react-router-dom';
+import Menu from '../../components/Menu/Menu';
 
 function Search() {
     const navigate = useNavigate()
@@ -36,6 +37,7 @@ function Search() {
             <Header Elements={
                 <>
                     <SearchBar />
+                    <Menu />
                 </>
             } />
             <TagContainer>
@@ -61,7 +63,7 @@ function Search() {
             <CardContainer>
             {filteredVirusInformation.map((info, index) => (
                 <VirusCard key={index} VirusImage={info.Image} onClick={goDetailed}>
-                    {info.VirusType}
+                    {info.VirusName}
                 </VirusCard>
             ))}
             </CardContainer>
