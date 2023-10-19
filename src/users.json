@@ -29,6 +29,30 @@
       "name": "Julia Yume",
       "email": "juliayumenk19@gmail.com",
       "password": "123"
+    },
+    {
+      "username": "bernardoh",
+      "name": "bernardo",
+      "email": "haisser2005@gmail.com",
+      "password": "1234"
+    },
+    {
+      "username": "Otavio",
+      "name": "Otavio Dantas",
+      "email": "otavioweiand@gmail.com",
+      "password": "tavinho"
+    },
+    {
+      "username": "Vitor Fiori",
+      "name": "Vitor Fiori",
+      "email": "vitor.ugo.fiori@gmail.com",
+      "password": "12345"
+    },
+    {
+      "username": "paula",
+      "name": "paula r",
+      "email": "paula@gmail.com",
+      "password": "123456"
     }
   ]
 }

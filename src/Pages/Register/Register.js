@@ -6,7 +6,7 @@ import LoginInput from "../../components/Login/Input/Input";
 import LoginFooter from "../../components/Login/Footer/Footer";
 import { useNavigate } from "react-router-dom";
 import { JustifingEnd } from "../../styledGlobal";
-import Logo from "../../assets/nutrivirus.png"
+import Logo from "../../Assets/nutrivirus.png"
 
 
 function Register() {
@@ -35,7 +35,7 @@ function Register() {
     })
       .then((response) => {
         alert(response.data.message);
-        navigate('/Home');
+        navigate('/home');
       })
       .catch((error) => {
         console.error('Erro durante o registro:', error);

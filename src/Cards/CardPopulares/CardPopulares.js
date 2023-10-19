@@ -1,5 +1,5 @@
 import { Container, DivMenor, Img, Porcentagem, Titulo } from "./styled"
-import grafico from "../../assets/trending_up.png"
+import grafico from "../../Assets/trending_up.png"
 import { useNavigate } from "react-router-dom"
 
 function CardPopulares() {
