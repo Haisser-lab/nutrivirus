@@ -23,6 +23,8 @@ export const PageTitle = styled.img`
 export const InputContainer = styled.form`
     grid-area: input;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 `
 
 export const RightAligned = styled.div`

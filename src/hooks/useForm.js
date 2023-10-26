@@ -1,6 +1,8 @@
-const useForm = ()=>{
+import { useState } from "react"
 
-    const [form, setForm] = useState()
+export const useForm = (estadoInicial)=>{
+
+    const [form, setForm] = useState(estadoInicial)
 
     const onChangeForm = (event)=>{
         const {value, name} = event.target
@@ -13,5 +15,5 @@ const useForm = ()=>{
         setForm(novoForm)
     }
 
-    return
-}[form, onChangeForm]
+    return[form, onChangeForm]
+}
